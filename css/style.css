@@ -42,10 +42,20 @@ ul {
 }
 
 /* Hero CSS */
-.heroImg {
-  height: 600px;
+.hero {
+  height: 100%;
   padding: 15px;
-  /* background-color: rgba(250, 250, 255, 0.5); */
+  background-color: rgba(250, 250, 255, 0.5);
+  text-align: center;
+}
+.aboutMe {
+  height: 75%;
+  width: 75%;
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(250, 250, 255);
+  text-align: center;
 }
 .girlOnSwing {
   border-radius: 100%;
@@ -107,5 +117,22 @@ h1 {
   font-weight: 700;
   font-style: normal;
   font-size: 96px;
+  text-align: center;
+  color: #3d434d;
+}
+h2 {
+  font-family: edita, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 70px;
+  text-align: center;
   color: #990349;
+}
+h3 {
+  font-family: edita, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
+  text-align: center;
+  color: #FAFAFF;
 }
