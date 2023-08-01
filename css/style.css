@@ -106,6 +106,9 @@ footer {
   /* position: fixed; */
   text-align: center;
 }
+.copyright-line {
+  display: block;
+}
 
 /* My Skills CSS */
 .flex-container {
