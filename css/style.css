@@ -423,3 +423,22 @@ p#description {
   font-size: 20px;
   text-align: left;
 }
+@media screen and (max-width: 600px) {
+.flexContainer{
+  flex-direction: column;
+}
+.skillCard {
+  width: 100%;
+}
+.project-card {
+  grid-template-rows: max-content 1fr 1fr;
+  grid-template-columns: 100%;
+}
+ul {
+  width: 80%;
+}
+.contactCard {
+  grid-template-rows: max-content 1fr 1fr;
+  grid-template-columns: 100%;
+}
+}
