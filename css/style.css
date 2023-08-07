@@ -2,14 +2,14 @@ body {
   height: 100%;
   margin: 0;
   font-family: Edita, Utopia Std, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 /* Navigation CSS */
 .inline-block {
   display: inline-block;
   vertical-align: top;
-  padding: 3px 10px 0px 10px;
+  padding: 10px 10px;
 }
 .logo {
   width: 23%;
@@ -20,13 +20,11 @@ nav {
   width: 73%;
   padding: 1%;
   text-align: center;
-  background-color: #1c1c1c;
 }
 ul {
   width: 50%;
   margin-left: auto;
   display: inline-block;
- /* vertical-align: top; */
   margin-left: auto;
   color: #fafaff;
   font-family: edita, serif;
@@ -37,6 +35,7 @@ ul {
 .navigation {
   background-color: #1c1c1c;
   width: auto;
+  padding: 0 5%;
   /* position: sticky; */
   top: 0px;
 }
@@ -100,7 +99,7 @@ a:active {
 /* My Skills CSS */
 .mySkillsSection {
   margin: 5%;
-  padding: 5px 10px 15px 20px;
+  padding: 10px;
   background-color: rgba(250, 250, 255, 0.90);
 }
 .flexContainer {
@@ -113,6 +112,7 @@ a:active {
   justify-content: space-between;
   width: 30%;
 }
+
 .skillImage {
   object-fit: scale-down;
   justify-self: center; 
@@ -154,6 +154,7 @@ a:active {
   align-self: center;
   max-width: 80%;
   min-width: 50%;
+  border-radius: 5%;
 }
 
 
